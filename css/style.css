@@ -13,6 +13,32 @@ button {
     outline: none!important;
 }
 
+.secondTitlte{
+    color: lightgrey;
+    font-size: 2em;
+    letter-spacing: -2px;
+}
+
+.citation{
+    text-align: center;
+    width: 80%;
+    margin-inline: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.citation .citation__text{
+    font-size: 1.5em;
+    letter-spacing: -1px;
+    line-height: 20px;
+}
+
+.thirdTitle{
+    width: 40%;
+    margin-inline: 30%;
+}
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -810,11 +836,11 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("/img/dots-bg.webp");
+    background-image: url("/img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("/img/lines-h2-bg.webp");
+    background-image: url("/img/lines-h2-bg.png");
 }
 
 .bg-banniere {
